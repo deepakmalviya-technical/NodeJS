@@ -1,0 +1,26 @@
+{
+  "name": "customer-details-server",
+  "version": "1.0.0",
+  "description": "This is the customer detail platform.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "cutomer",
+    "nodejs",
+    "mern"
+  ],
+  "author": "Deepak Malviya",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.9",
+    "multer": "^1.4.2",
+    "shortid": "^2.2.16",
+    "utc-to-indiantime": "^1.0.7"
+  }
+}
